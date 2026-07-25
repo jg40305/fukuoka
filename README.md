@@ -22,6 +22,8 @@ python3 -m http.server 8000
 
 更完整的協作方式請參考 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
+後續規劃項目請參考 [TODO.md](TODO.md)。
+
 ## 版本規則
 
 本專案使用 [Semantic Versioning](https://semver.org/)（SemVer），版本格式為
