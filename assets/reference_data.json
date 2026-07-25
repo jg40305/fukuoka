@@ -1,0 +1,690 @@
+[
+  {
+    "group": "福岡市區",
+    "name": "天神地下街",
+    "lat": 33.589571899999996,
+    "lng": 130.3997484,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.589571899999996,130.3997484",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "博多運河城（Canal City Hakata）",
+    "lat": 33.5896305,
+    "lng": 130.41094780000003,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5896305,130.41094780000003",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "博多舊市街（Hakata Old Town）",
+    "lat": 33.5950481,
+    "lng": 130.41642439999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5950481,130.41642439999998",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "志賀島（含金印出土地、海水浴、單車遊）",
+    "lat": 33.666035199999996,
+    "lng": 130.3027856,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.666035199999996,130.3027856",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "LaLaport福岡（1:1 V鋼彈、KidZania、玩具美術館）",
+    "lat": 33.565167599999995,
+    "lng": 130.4409414,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.565167599999995,130.4409414",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "一蘭之森拉麵工房見學",
+    "lat": 33.593151399999996,
+    "lng": 130.20218939999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.593151399999996,130.20218939999998",
+    "note": "實際位於糸島市"
+  },
+  {
+    "group": "福岡市區",
+    "name": "海中道水族館（海之中道／Marine World）",
+    "lat": 33.660851,
+    "lng": 130.36341299999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.660851,130.36341299999998",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "BOUNCEE by RIHGA福岡博多（2026年9月新開幕）",
+    "lat": 33.5907307,
+    "lng": 130.4129657,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5907307,130.4129657",
+    "note": "鄰近櫛田神社"
+  },
+  {
+    "group": "太宰府市",
+    "name": "太宰府天滿宮",
+    "lat": 33.5213697,
+    "lng": 130.5348239,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5213697,130.5348239",
+    "note": ""
+  },
+  {
+    "group": "太宰府市",
+    "name": "竈門神社",
+    "lat": 33.5288381,
+    "lng": 130.5525313,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5288381,130.5525313",
+    "note": ""
+  },
+  {
+    "group": "太宰府市",
+    "name": "天開稻荷社",
+    "lat": 33.5229717,
+    "lng": 130.5379206,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5229717,130.5379206",
+    "note": ""
+  },
+  {
+    "group": "太宰府市",
+    "name": "雷山千如寺",
+    "lat": 33.4944456,
+    "lng": 130.2287178,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4944456,130.2287178",
+    "note": "實際位於糸島市，常與太宰府排同一天"
+  },
+  {
+    "group": "柳川市",
+    "name": "柳川遊船（含船夫跳橋表演）",
+    "lat": 33.1671516,
+    "lng": 130.4154015,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1671516,130.4154015",
+    "note": ""
+  },
+  {
+    "group": "糸島市",
+    "name": "糸島（夫婦岩／二見浦海濱）",
+    "lat": 33.640495,
+    "lng": 130.1964802,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.640495,130.1964802",
+    "note": ""
+  },
+  {
+    "group": "糸島市",
+    "name": "糸島農產市場",
+    "lat": 33.5559301,
+    "lng": 130.2282845,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5559301,130.2282845",
+    "note": ""
+  },
+  {
+    "group": "糸島市",
+    "name": "雷山千如寺",
+    "lat": 33.4944456,
+    "lng": 130.2287178,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4944456,130.2287178",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "門司港",
+    "lat": 33.945112099999996,
+    "lng": 130.9615522,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.945112099999996,130.9615522",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "鳥栖Premium Outlets",
+    "lat": 33.4064854,
+    "lng": 130.51163689999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4064854,130.51163689999998",
+    "note": "實際位於佐賀縣鳥栖市，常與北九州團排在一起"
+  },
+  {
+    "group": "佐賀縣",
+    "name": "鳥栖Premium Outlets",
+    "lat": 33.4064854,
+    "lng": 130.51163689999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4064854,130.51163689999998",
+    "note": "正確歸屬"
+  },
+  {
+    "group": "佐賀縣",
+    "name": "武雄溫泉樓門",
+    "lat": 33.1962371,
+    "lng": 130.0146614,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1962371,130.0146614",
+    "note": ""
+  },
+  {
+    "group": "大分縣",
+    "name": "由布院溫泉街、金鱗湖",
+    "lat": 33.2626697,
+    "lng": 131.355101,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2626697,131.355101",
+    "note": "座標為由布院站"
+  },
+  {
+    "group": "大分縣",
+    "name": "由布院之森觀光列車",
+    "lat": 33.2626697,
+    "lng": 131.355101,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2626697,131.355101",
+    "note": "座標為由布院站"
+  },
+  {
+    "group": "大分縣",
+    "name": "別府",
+    "lat": 33.2797011,
+    "lng": 131.5002568,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2797011,131.5002568",
+    "note": "座標為別府站"
+  },
+  {
+    "group": "大分縣",
+    "name": "黑川溫泉",
+    "lat": 33.0780191,
+    "lng": 131.14161360000003,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.0780191,131.14161360000003",
+    "note": ""
+  },
+  {
+    "group": "大分縣",
+    "name": "耶馬溪",
+    "lat": 33.4998128,
+    "lng": 131.1714769,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4998128,131.1714769",
+    "note": ""
+  },
+  {
+    "group": "大分縣",
+    "name": "宮地嶽神社（光の道）",
+    "lat": 33.7792254,
+    "lng": 130.4841842,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7792254,130.4841842",
+    "note": "正確歸屬福岡縣福津市"
+  },
+  {
+    "group": "熊本縣",
+    "name": "熊本城",
+    "lat": 32.806185899999996,
+    "lng": 130.70583349999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.806185899999996,130.70583349999998",
+    "note": ""
+  },
+  {
+    "group": "熊本縣",
+    "name": "水前寺公園",
+    "lat": 32.7909621,
+    "lng": 130.73482339999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7909621,130.73482339999998",
+    "note": ""
+  },
+  {
+    "group": "熊本縣",
+    "name": "阿蘇山、阿蘇火山博物館、草千里",
+    "lat": 32.8818249,
+    "lng": 131.0533279,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.8818249,131.0533279",
+    "note": "座標為草千里ヶ浜"
+  },
+  {
+    "group": "熊本縣",
+    "name": "九州自然動物公園非洲Safari體驗",
+    "lat": 33.3509251,
+    "lng": 131.4137658,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3509251,131.4137658",
+    "note": "實際位於大分縣宇佐市"
+  },
+  {
+    "group": "宮崎縣",
+    "name": "高千穗峽、真名井瀑布",
+    "lat": 32.7024539,
+    "lng": 131.300921,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7024539,131.300921",
+    "note": ""
+  },
+  {
+    "group": "宮崎縣",
+    "name": "天安河原",
+    "lat": 32.7379011,
+    "lng": 131.3530726,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7379011,131.3530726",
+    "note": ""
+  },
+  {
+    "group": "宮崎縣",
+    "name": "天岩戶神社",
+    "lat": 32.7344861,
+    "lng": 131.3507125,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7344861,131.3507125",
+    "note": ""
+  },
+  {
+    "group": "宮崎縣",
+    "name": "高千穗牛午餐",
+    "lat": 32.7024539,
+    "lng": 131.300921,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7024539,131.300921",
+    "note": "餐食安排，座標以高千穗峽區域代表"
+  },
+  {
+    "group": "長崎縣",
+    "name": "豪斯登堡",
+    "lat": 33.0897198,
+    "lng": 129.79189209999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.0897198,129.79189209999998",
+    "note": ""
+  },
+  {
+    "group": "長崎縣",
+    "name": "長崎企鵝水族館",
+    "lat": 32.7581537,
+    "lng": 129.9467149,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7581537,129.9467149",
+    "note": ""
+  },
+  {
+    "group": "長崎縣",
+    "name": "伊王島渡假村",
+    "lat": 32.6973412,
+    "lng": 129.7781324,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.6973412,129.7781324",
+    "note": "座標為伊王島町一帶"
+  },
+  {
+    "group": "長崎縣",
+    "name": "眼鏡橋",
+    "lat": 32.747144399999996,
+    "lng": 129.8800952,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.747144399999996,129.8800952",
+    "note": ""
+  },
+  {
+    "group": "長崎縣",
+    "name": "稻佐山展望台（玻璃列車終點）",
+    "lat": 32.7526235,
+    "lng": 129.8495163,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.7526235,129.8495163",
+    "note": "補充：熊本熊本城行程中提及的鐵道體驗景點"
+  },
+  {
+    "group": "山口縣",
+    "name": "秋芳洞",
+    "lat": 34.2281082,
+    "lng": 131.3035348,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34.2281082,131.3035348",
+    "note": ""
+  },
+  {
+    "group": "山口縣",
+    "name": "元乃隅稻成神社",
+    "lat": 34.419701499999995,
+    "lng": 131.06266549999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34.419701499999995,131.06266549999998",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "櫛田神社",
+    "lat": 33.5929546,
+    "lng": 130.41045889999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5929546,130.41045889999998",
+    "note": "博多祇園山笠祭典地點"
+  },
+  {
+    "group": "福岡市區",
+    "name": "teamLab Forest Fukuoka",
+    "lat": 33.5949959,
+    "lng": 130.3636745,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5949959,130.3636745",
+    "note": "E-ZO FUKUOKA 5樓"
+  },
+  {
+    "group": "福岡市區",
+    "name": "Mina天神",
+    "lat": 33.5927599,
+    "lng": 130.3985129,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5927599,130.3985129",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "天神Parco百貨",
+    "lat": 33.5907445,
+    "lng": 130.39866519999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5907445,130.39866519999998",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "福岡塔",
+    "lat": 33.5932846,
+    "lng": 130.35151,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5932846,130.35151",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "赤煉瓦文化館",
+    "lat": 33.5931523,
+    "lng": 130.4018844,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5931523,130.4018844",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "大濠公園",
+    "lat": 33.586206499999996,
+    "lng": 130.3764646,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.586206499999996,130.3764646",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "福岡市美術館",
+    "lat": 33.5841636,
+    "lng": 130.37967179999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5841636,130.37967179999998",
+    "note": "門口有草間彌生黃色南瓜"
+  },
+  {
+    "group": "福岡市區",
+    "name": "護國神社",
+    "lat": 33.5816954,
+    "lng": 130.38201759999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5816954,130.38201759999998",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "王貞治棒球紀念館",
+    "lat": 33.5954852,
+    "lng": 130.3637791,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5954852,130.3637791",
+    "note": "E-ZO FUKUOKA內"
+  },
+  {
+    "group": "福岡市區",
+    "name": "東長寺（福岡大佛）",
+    "lat": 33.5947673,
+    "lng": 130.4144643,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5947673,130.4144643",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "中洲一蘭拉麵總店",
+    "lat": 33.5932405,
+    "lng": 130.4045974,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5932405,130.4045974",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "博多車站",
+    "lat": 33.589727499999995,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.589727499999995,130.4207274",
+    "note": "AMU百貨、Hands、頂樓鐵道神社"
+  },
+  {
+    "group": "福岡市區",
+    "name": "中洲紅燈區／屋台",
+    "lat": 33.5899407,
+    "lng": 130.4089399,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5899407,130.4089399",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "友泉亭公園",
+    "lat": 33.5626793,
+    "lng": 130.3763946,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5626793,130.3763946",
+    "note": ""
+  },
+  {
+    "group": "福岡市區",
+    "name": "藥院站商圈",
+    "lat": 33.5817461,
+    "lng": 130.40212209999999,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5817461,130.40212209999999",
+    "note": ""
+  },
+  {
+    "group": "太宰府市",
+    "name": "九州國立博物館",
+    "lat": 33.5182578,
+    "lng": 130.5381224,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5182578,130.5381224",
+    "note": ""
+  },
+  {
+    "group": "筑紫野市",
+    "name": "二日市站",
+    "lat": 33.4950032,
+    "lng": 130.5186507,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4950032,130.5186507",
+    "note": "前往太宰府轉乘站，可搭復古「旅人號」列車"
+  },
+  {
+    "group": "柳川市",
+    "name": "御花（立花家史料館／柳川藩主立花邸）",
+    "lat": 33.1588129,
+    "lng": 130.3973412,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1588129,130.3973412",
+    "note": ""
+  },
+  {
+    "group": "糸島市",
+    "name": "龍貓之森",
+    "lat": 33.595023399999995,
+    "lng": 130.1094904,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.595023399999995,130.1094904",
+    "note": ""
+  },
+  {
+    "group": "糸島市",
+    "name": "芥屋大門",
+    "lat": 33.596604899999996,
+    "lng": 130.1076942,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.596604899999996,130.1076942",
+    "note": "日本三大玄武岩洞之一"
+  },
+  {
+    "group": "糸島市",
+    "name": "立石山",
+    "lat": 33.5817992,
+    "lng": 130.0997949,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5817992,130.0997949",
+    "note": ""
+  },
+  {
+    "group": "糸島市",
+    "name": "香導神社",
+    "lat": 33.5430547,
+    "lng": 130.1539809,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5430547,130.1539809",
+    "note": "座標為推測（箱島神社），無法100%確認"
+  },
+  {
+    "group": "糸島市",
+    "name": "花鹽布丁（工房Tottozitan）",
+    "lat": 33.577181599999996,
+    "lng": 130.0897402,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.577181599999996,130.0897402",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "小倉城",
+    "lat": 33.8844357,
+    "lng": 130.8742541,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8844357,130.8742541",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "小倉城庭園",
+    "lat": 33.8845854,
+    "lng": 130.8754279,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8845854,130.8754279",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "八坂神社（北九州）",
+    "lat": 33.885520299999996,
+    "lng": 130.8734344,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.885520299999996,130.8734344",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "旦過市場",
+    "lat": 33.8812821,
+    "lng": 130.8797959,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8812821,130.8797959",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "魚町銀天街",
+    "lat": 33.8838161,
+    "lng": 130.8799133,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8838161,130.8799133",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "皿倉山展望台",
+    "lat": 33.846732599999996,
+    "lng": 130.7968029,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.846732599999996,130.7968029",
+    "note": "新日本三大夜景"
+  },
+  {
+    "group": "北九州市",
+    "name": "門司港車站",
+    "lat": 33.945112099999996,
+    "lng": 130.9615522,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.945112099999996,130.9615522",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "舊門司三井俱樂部",
+    "lat": 33.945699399999995,
+    "lng": 130.962505,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.945699399999995,130.962505",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "舊大阪商船",
+    "lat": 33.946143299999996,
+    "lng": 130.9622334,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.946143299999996,130.9622334",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "和布刈神社",
+    "lat": 33.9608993,
+    "lng": 130.9622918,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9608993,130.9622918",
+    "note": "九州最北端神社"
+  },
+  {
+    "group": "北九州市",
+    "name": "關門隧道人行道",
+    "lat": 33.9633117,
+    "lng": 130.95978829999999,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9633117,130.95978829999999",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "和布刈公園第二展望台",
+    "lat": 33.9608993,
+    "lng": 130.9622918,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9608993,130.9622918",
+    "note": "座標與和布刈神社相近，查無獨立資料點"
+  },
+  {
+    "group": "北九州市",
+    "name": "九州鐵道紀念館",
+    "lat": 33.943148799999996,
+    "lng": 130.96179379999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.943148799999996,130.96179379999998",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "藍翼橋（Blue Wing Moji）",
+    "lat": 33.9478705,
+    "lng": 130.9627873,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9478705,130.9627873",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "舊門司稅關",
+    "lat": 33.9477344,
+    "lng": 130.9636131,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9477344,130.9636131",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "海峽廣場",
+    "lat": 33.945740799999996,
+    "lng": 130.9635371,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.945740799999996,130.9635371",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "門司港懷舊展望室",
+    "lat": 33.9484054,
+    "lng": 130.9641174,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9484054,130.9641174",
+    "note": ""
+  },
+  {
+    "group": "北九州市",
+    "name": "關門海峽博物館",
+    "lat": 33.9546189,
+    "lng": 130.9423611,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9546189,130.9423611",
+    "note": "座標為鄰近的海響館，查無獨立資料點"
+  },
+  {
+    "group": "山口縣",
+    "name": "唐戶市場",
+    "lat": 33.9566087,
+    "lng": 130.945824,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9566087,130.945824",
+    "note": "下關市"
+  },
+  {
+    "group": "山口縣",
+    "name": "海響館",
+    "lat": 33.9546189,
+    "lng": 130.9423611,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9546189,130.9423611",
+    "note": "下關市，河豚與藍鯨標本"
+  },
+  {
+    "group": "宮崎縣",
+    "name": "高千穗神社",
+    "lat": 32.706446500000006,
+    "lng": 131.30200929999998,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32.706446500000006,131.30200929999998",
+    "note": "800年古杉「夫婦杉」"
+  }
+]

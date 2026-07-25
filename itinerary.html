@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>實際安排景點｜福岡＆九州</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; font-family: "PingFang TC","Microsoft JhengHei",sans-serif; }
+  #map { position: absolute; top: 0; bottom: 0; left: 0; right: 300px; }
+  #sidebar {
+    position: absolute; top: 0; right: 0; width: 300px; bottom: 0;
+    overflow-y: auto; background: #fafafa; border-left: 1px solid #ddd;
+    box-sizing: border-box; padding: 12px;
+  }
+  #sidebar h1 { font-size: 16px; margin: 4px 0 4px; }
+  #sidebar .back { font-size: 12px; margin-bottom: 12px; display: inline-block; }
+  .group { margin-bottom: 14px; }
+  .group-title {
+    font-weight: bold; font-size: 13px; padding: 4px 8px; border-radius: 4px;
+    color: #fff; margin-bottom: 4px; cursor: pointer;
+  }
+  .group-items { font-size: 12px; }
+  .item { padding: 3px 8px; cursor: pointer; border-radius: 3px; }
+  .item:hover { background: #eee; }
+  .leaflet-popup-content { font-size: 13px; }
+  #empty-state {
+    position: absolute; top: 0; right: 300px; left: 0; bottom: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: #f5f3ee; z-index: 500; text-align: center; padding: 24px;
+  }
+  #empty-state.hidden { display: none; }
+  #empty-state h2 { font-size: 18px; margin-bottom: 8px; }
+  #empty-state p { font-size: 13px; color: #666; max-width: 360px; line-height: 1.6; }
+  #empty-state code {
+    display: block; background: #fff; border: 1px solid #ddd; border-radius: 6px;
+    padding: 10px; margin-top: 12px; font-size: 11px; text-align: left; white-space: pre-wrap;
+  }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+<div id="empty-state">
+  <div>
+    <h2>還沒安排景點</h2>
+    <p>目前 <code style="display:inline;padding:1px 4px;">assets/itinerary_data.json</code> 是空的。從「參考景點地圖」挑好要去的地方後，照下面格式加進這個檔案，每一筆一個天數：</p>
+    <code>[
+  {"day":"Day 1","name":"太宰府天滿宮","lat":33.5213697,"lng":130.5348239,
+   "google_maps_url":"https://www.google.com/maps/search/?api=1&query=33.5213697,130.5348239",
+   "note":""}
+]</code>
+  </div>
+</div>
+<div id="sidebar">
+  <h1>實際安排景點</h1>
+  <a class="back" href="index.html">← 回首頁</a>
+  <div id="groups"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const map = L.map('map').setView([33.0, 130.7], 8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+// Day 順序 = 資料裡第一次出現的順序，顏色依 Day 數由淺到深給漸層（跟參考地圖的縣市配色邏輯不同，這裡是照時間順序而非地理位置）
+function dayColor(index, total) {
+  const startHue = 200; // 淺藍
+  const endHue = 280;   // 深紫
+  const hue = total <= 1 ? startHue : startHue + (endHue - startHue) * (index / (total - 1));
+  return `hsl(${hue}, 60%, 45%)`;
+}
+
+function renderData(dataArr) {
+  const emptyState = document.getElementById('empty-state');
+  if (!dataArr || dataArr.length === 0) {
+    emptyState.classList.remove('hidden');
+    return;
+  }
+  emptyState.classList.add('hidden');
+
+  // 依出現順序取得所有 day 名稱
+  const dayOrder = [];
+  dataArr.forEach(d => { if (!dayOrder.includes(d.day)) dayOrder.push(d.day); });
+  const dayColors = {};
+  dayOrder.forEach((day, i) => { dayColors[day] = dayColor(i, dayOrder.length); });
+
+  const groups = {};
+
+  dataArr.forEach(d => {
+    const color = dayColors[d.day] || "#333";
+    const marker = L.circleMarker([d.lat, d.lng], {
+      radius: 7,
+      fillColor: color,
+      color: "#fff",
+      weight: 1.5,
+      fillOpacity: 0.9
+    }).addTo(map);
+
+    const gmapsUrl = d.google_maps_url || `https://www.google.com/maps/search/?api=1&query=${d.lat},${d.lng}`;
+    const popupHtml = `<b>${d.name}</b><br>${d.day}<br>座標：${d.lat.toFixed(5)}, ${d.lng.toFixed(5)}` +
+      (d.note ? `<br><span style="color:#999">備註：${d.note}</span>` : "") +
+      `<br><a href="${gmapsUrl}" target="_blank" rel="noopener">在 Google 地圖開啟 →</a>`;
+    marker.bindPopup(popupHtml);
+
+    if (!groups[d.day]) groups[d.day] = [];
+    groups[d.day].push({ marker, data: d });
+  });
+
+  const groupsEl = document.getElementById('groups');
+  groupsEl.innerHTML = '';
+  dayOrder.forEach(day => {
+    const color = dayColors[day];
+    const groupDiv = document.createElement('div');
+    groupDiv.className = 'group';
+
+    const titleDiv = document.createElement('div');
+    titleDiv.className = 'group-title';
+    titleDiv.style.background = color;
+    titleDiv.textContent = `${day}（${groups[day].length}）`;
+    groupDiv.appendChild(titleDiv);
+
+    const itemsDiv = document.createElement('div');
+    itemsDiv.className = 'group-items';
+
+    groups[day].forEach(entry => {
+      const itemDiv = document.createElement('div');
+      itemDiv.className = 'item';
+      itemDiv.textContent = entry.data.name;
+      itemDiv.onclick = () => {
+        map.setView([entry.data.lat, entry.data.lng], 13);
+        entry.marker.openPopup();
+      };
+      itemsDiv.appendChild(itemDiv);
+    });
+
+    groupDiv.appendChild(itemsDiv);
+    groupsEl.appendChild(groupDiv);
+  });
+}
+
+fetch('assets/itinerary_data.json')
+  .then(res => { if (!res.ok) throw new Error('fetch failed'); return res.json(); })
+  .then(json => renderData(json))
+  .catch(() => {
+    console.warn('讀取 assets/itinerary_data.json 失敗（若用 file:// 直接開啟會被瀏覽器擋，請用本機伺服器或看 GitHub Pages 上的版本）。');
+    renderData([]);
+  });
+</script>
+</body>
+</html>
