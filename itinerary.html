@@ -7,34 +7,57 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 <style>
   html, body { margin: 0; padding: 0; height: 100%; font-family: "PingFang TC","Microsoft JhengHei",sans-serif; }
-  #map { position: absolute; top: 0; bottom: 0; left: 0; right: 300px; }
+  #map { position: absolute; top: 0; bottom: 0; left: 0; right: 320px; }
   #sidebar {
-    position: absolute; top: 0; right: 0; width: 300px; bottom: 0;
+    position: absolute; top: 0; right: 0; width: 320px; bottom: 0;
     overflow-y: auto; background: #fafafa; border-left: 1px solid #ddd;
-    box-sizing: border-box; padding: 12px;
+    box-sizing: border-box; padding: 16px;
   }
-  #sidebar h1 { font-size: 16px; margin: 4px 0 4px; }
-  #sidebar .back { font-size: 12px; margin-bottom: 12px; display: inline-block; }
-  .group { margin-bottom: 14px; }
+  #sidebar h1 { font-size: 18px; margin: 4px 0 6px; color: #222; }
+  #sidebar .back { font-size: 12px; margin-bottom: 14px; display: inline-block; color: #1a4fbf; text-decoration: none; font-weight: 500; }
+  #sidebar .back:hover { text-decoration: underline; }
+  .group { margin-bottom: 16px; background: #fff; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
   .group-title {
-    font-weight: bold; font-size: 13px; padding: 4px 8px; border-radius: 4px;
-    color: #fff; margin-bottom: 4px; cursor: pointer;
+    font-weight: 600; font-size: 13px; padding: 8px 12px;
+    color: #fff; display: flex; justify-content: space-between; align-items: center;
   }
-  .group-items { font-size: 12px; }
-  .item { padding: 3px 8px; cursor: pointer; border-radius: 3px; }
-  .item:hover { background: #eee; }
-  .leaflet-popup-content { font-size: 13px; }
-  #empty-state {
-    position: absolute; top: 0; right: 300px; left: 0; bottom: 0;
+  .group-items { font-size: 12.5px; padding: 6px 0; }
+  .item {
+    padding: 6px 12px; cursor: pointer; display: flex; align-items: center; gap: 8px;
+    transition: background 0.15s ease;
+  }
+  .item:hover { background: #f1f5f9; }
+  .item-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; border-radius: 50%; color: #fff; font-size: 11px;
+    font-weight: bold; flex-shrink: 0;
+  }
+  .item-name { font-weight: 500; color: #334155; line-height: 1.3; }
+  .leaflet-popup-content { font-size: 13px; line-height: 1.5; }
+  
+  /* 自訂地圖 X-Y 數字標記 */
+  .custom-day-marker {
+    background: transparent;
+    border: none;
+  }
+  .marker-pin {
+    min-width: 28px; height: 26px; border-radius: 13px;
+    padding: 0 5px; box-sizing: border-box;
+    color: #ffffff; font-weight: 700; font-size: 11px;
     display: flex; align-items: center; justify-content: center;
-    background: #f5f3ee; z-index: 500; text-align: center; padding: 24px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+    transition: transform 0.15s ease;
+    white-space: nowrap;
   }
-  #empty-state.hidden { display: none; }
-  #empty-state h2 { font-size: 18px; margin-bottom: 8px; }
-  #empty-state p { font-size: 13px; color: #666; max-width: 360px; line-height: 1.6; }
-  #empty-state code {
-    display: block; background: #fff; border: 1px solid #ddd; border-radius: 6px;
-    padding: 10px; margin-top: 12px; font-size: 11px; text-align: left; white-space: pre-wrap;
+  .marker-pin:hover {
+    transform: scale(1.15);
+  }
+  .item-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 32px; height: 20px; border-radius: 10px; padding: 0 5px;
+    color: #fff; font-size: 10.5px; font-weight: bold; flex-shrink: 0;
+    box-sizing: border-box; white-space: nowrap;
   }
 </style>
 </head>
@@ -53,25 +76,37 @@
   </div>
 </div>
 <div id="sidebar">
-  <h1>實際安排景點</h1>
+  <h1>實際安排景點行程</h1>
   <a class="back" href="index.html">← 回首頁</a>
   <div id="groups"></div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-const map = L.map('map').setView([33.0, 130.7], 8);
+const map = L.map('map').setView([33.4, 130.6], 8);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-// Day 順序 = 資料裡第一次出現的順序，顏色依 Day 數由淺到深給漸層（跟參考地圖的縣市配色邏輯不同，這裡是照時間順序而非地理位置）
+// 每日獨立對比鮮豔色表（依 Day 1~Day 10 區隔）
+const palette = [
+  '#e63946', // Day 1: 珊瑚紅
+  '#f77f00', // Day 2: 暖陽橘
+  '#d4a373', // Day 3: 大地棕
+  '#2a9d8f', // Day 4: 翡翠綠
+  '#0077b6', // Day 5: 蔚藍
+  '#7209b7', // Day 6: 靛紫
+  '#f72585', // Day 7: 玫瑰粉
+  '#4361ee', // Day 8: 皇家藍
+  '#3a5a40', // Day 9: 森林綠
+  '#4a5568'  // Day 10: 石墨灰
+];
+
 function dayColor(index, total) {
-  const startHue = 200; // 淺藍
-  const endHue = 280;   // 深紫
-  const hue = total <= 1 ? startHue : startHue + (endHue - startHue) * (index / (total - 1));
-  return `hsl(${hue}, 60%, 45%)`;
+  if (palette[index]) return palette[index];
+  const hue = (index * (360 / Math.max(total, 1))) % 360;
+  return `hsl(${hue}, 75%, 45%)`;
 }
 
 function renderData(dataArr) {
@@ -89,28 +124,82 @@ function renderData(dataArr) {
   dayOrder.forEach((day, i) => { dayColors[day] = dayColor(i, dayOrder.length); });
 
   const groups = {};
+  const dayCounts = {};
 
   dataArr.forEach(d => {
+    if (!dayCounts[d.day]) dayCounts[d.day] = 0;
+    dayCounts[d.day] += 1;
+    const seqNum = dayCounts[d.day];
+
+    // 取出天數數字 (例如 "Day 1" -> "1", "Day 10" -> "10")
+    const dayNum = d.day.replace(/[^0-9]/g, '') || '1';
+    const labelCode = `${dayNum}-${seqNum}`;
+
     const color = dayColors[d.day] || "#333";
-    const marker = L.circleMarker([d.lat, d.lng], {
-      radius: 7,
-      fillColor: color,
-      color: "#fff",
-      weight: 1.5,
-      fillOpacity: 0.9
-    }).addTo(map);
+
+    // 建立帶有 X-Y 數字標號的 Leaflet DivIcon Marker
+    const customIcon = L.divIcon({
+      className: 'custom-day-marker',
+      html: `<div class="marker-pin" style="background-color: ${color};">${labelCode}</div>`,
+      iconSize: [32, 26],
+      iconAnchor: [16, 13],
+      popupAnchor: [0, -13]
+    });
+
+    const marker = L.marker([d.lat, d.lng], { icon: customIcon }).addTo(map);
 
     const gmapsUrl = d.google_maps_url || `https://www.google.com/maps/search/?api=1&query=${d.lat},${d.lng}`;
-    const popupHtml = `<b>${d.name}</b><br>${d.day}<br>座標：${d.lat.toFixed(5)}, ${d.lng.toFixed(5)}` +
-      (d.note ? `<br><span style="color:#999">備註：${d.note}</span>` : "") +
-      `<br><a href="${gmapsUrl}" target="_blank" rel="noopener">在 Google 地圖開啟 →</a>`;
+    const popupHtml = `<div style="font-family:sans-serif;">` +
+      `<div style="display:inline-block;background:${color};color:#fff;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:bold;margin-bottom:4px;">${d.day} • 站點 ${labelCode}</div><br>` +
+      `<b style="font-size:14px;">${d.name}</b><br>` +
+      `<span style="color:#666;font-size:12px;">座標：${d.lat.toFixed(5)}, ${d.lng.toFixed(5)}</span>` +
+      (d.note ? `<br><span style="color:#d97706;font-size:12px;">💡 ${d.note}</span>` : "") +
+      `<br><a href="${gmapsUrl}" target="_blank" rel="noopener" style="display:inline-block;margin-top:6px;color:#1a4fbf;text-decoration:none;font-weight:500;">在 Google 地圖開啟 →</a></div>`;
     marker.bindPopup(popupHtml);
 
     if (!groups[d.day]) groups[d.day] = [];
-    groups[d.day].push({ marker, data: d });
+    groups[d.day].push({ marker, data: d, seqNum, labelCode });
   });
 
+  // 繪製每日景點間的順序連線 (Intra-day Polyline)
+  dayOrder.forEach(day => {
+    const entries = groups[day];
+    if (entries && entries.length > 1) {
+      const latLngs = entries.map(e => [e.data.lat, e.data.lng]);
+      L.polyline(latLngs, {
+        color: dayColors[day],
+        weight: 3,
+        opacity: 0.75,
+        dashArray: '6, 6'
+      }).addTo(map);
+    }
+  });
+
+  // 繪製跨天之間的住宿/行程銜接線 (Inter-day Connecting Line, 如 1-6 -> 2-1, 2-7 -> 3-1)
+  for (let i = 0; i < dayOrder.length - 1; i++) {
+    const currDay = dayOrder[i];
+    const nextDay = dayOrder[i + 1];
+    const currEntries = groups[currDay];
+    const nextEntries = groups[nextDay];
+
+    if (currEntries && currEntries.length > 0 && nextEntries && nextEntries.length > 0) {
+      const lastSpot = currEntries[currEntries.length - 1];
+      const nextFirstSpot = nextEntries[0];
+
+      L.polyline([
+        [lastSpot.data.lat, lastSpot.data.lng],
+        [nextFirstSpot.data.lat, nextFirstSpot.data.lng]
+      ], {
+        color: '#64748b', // 質感中性灰，標示跨天移動
+        weight: 2,
+        opacity: 0.55,
+        dashArray: '2, 5'
+      }).addTo(map);
+    }
+  }
+
   const groupsEl = document.getElementById('groups');
+
   groupsEl.innerHTML = '';
   dayOrder.forEach(day => {
     const color = dayColors[day];
@@ -120,7 +209,7 @@ function renderData(dataArr) {
     const titleDiv = document.createElement('div');
     titleDiv.className = 'group-title';
     titleDiv.style.background = color;
-    titleDiv.textContent = `${day}（${groups[day].length}）`;
+    titleDiv.innerHTML = `<span>${day}</span><span style="opacity:0.85;font-size:12px;">${groups[day].length} 個站點</span>`;
     groupDiv.appendChild(titleDiv);
 
     const itemsDiv = document.createElement('div');
@@ -129,7 +218,8 @@ function renderData(dataArr) {
     groups[day].forEach(entry => {
       const itemDiv = document.createElement('div');
       itemDiv.className = 'item';
-      itemDiv.textContent = entry.data.name;
+      itemDiv.innerHTML = `<span class="item-num" style="background:${color}">${entry.labelCode}</span>` +
+        `<span class="item-name">${entry.data.name}</span>`;
       itemDiv.onclick = () => {
         map.setView([entry.data.lat, entry.data.lng], 13);
         entry.marker.openPopup();
@@ -142,6 +232,7 @@ function renderData(dataArr) {
   });
 }
 
+
 fetch('assets/itinerary_data.json')
   .then(res => { if (!res.ok) throw new Error('fetch failed'); return res.json(); })
   .then(json => renderData(json))
@@ -152,3 +243,4 @@ fetch('assets/itinerary_data.json')
 </script>
 </body>
 </html>
+

@@ -1,1 +1,458 @@
-[]
+[
+  {
+    "day": "Day 1",
+    "name": "出發/寄存：博多車站飯店 Check-in",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】10:00 桃園抵達福岡機場，搭地鐵至博多站飯店寄存行李"
+  },
+  {
+    "day": "Day 1",
+    "name": "櫛田神社",
+    "lat": 33.5929546,
+    "lng": 130.4104589,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5929546,130.4104589",
+    "note": "博多總鎮守，祈求旅途平安"
+  },
+  {
+    "day": "Day 1",
+    "name": "博多舊市街（Hakata Old Town）",
+    "lat": 33.5950481,
+    "lng": 130.4164244,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5950481,130.4164244",
+    "note": "漫步古色古香傳統巷弄與歷史寺院"
+  },
+  {
+    "day": "Day 1",
+    "name": "天神地下街",
+    "lat": 33.5895719,
+    "lng": 130.3997484,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5895719,130.3997484",
+    "note": "天神商圈熱鬧逛街"
+  },
+  {
+    "day": "Day 1",
+    "name": "中洲一蘭拉麵總店",
+    "lat": 33.5932405,
+    "lng": 130.4045974,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5932405,130.4045974",
+    "note": "晚餐享用經典一蘭拉麵總店與中洲夜景"
+  },
+  {
+    "day": "Day 1",
+    "name": "下榻：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】夜宿博多市區飯店"
+  },
+  {
+    "day": "Day 2",
+    "name": "出發：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿出發】從博多飯店搭西鐵出發"
+  },
+  {
+    "day": "Day 2",
+    "name": "二日市站",
+    "lat": 33.4950032,
+    "lng": 130.5186507,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4950032,130.5186507",
+    "note": "轉乘西鐵「旅人號」觀光列車"
+  },
+  {
+    "day": "Day 2",
+    "name": "太宰府天滿宮",
+    "lat": 33.5213697,
+    "lng": 130.5348239,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5213697,130.5348239",
+    "note": "參拜學問之神與品嚐梅枝餅"
+  },
+  {
+    "day": "Day 2",
+    "name": "竈門神社",
+    "lat": 33.5288381,
+    "lng": 130.5525313,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5288381,130.5525313",
+    "note": "結緣神社與鬼滅之刃聖地"
+  },
+  {
+    "day": "Day 2",
+    "name": "柳川遊船（含船夫跳橋表演）",
+    "lat": 33.1671516,
+    "lng": 130.4154015,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1671516,130.4154015",
+    "note": "體驗水鄉搖櫓船與享用蒸鰻魚飯"
+  },
+  {
+    "day": "Day 2",
+    "name": "御花（立花家史料館／柳川藩主立花邸）",
+    "lat": 33.1588129,
+    "lng": 130.3973412,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1588129,130.3973412",
+    "note": "參觀藩主邸宅與松濤園"
+  },
+  {
+    "day": "Day 2",
+    "name": "鳥栖Premium Outlets",
+    "lat": 33.4064854,
+    "lng": 130.5116369,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4064854,130.5116369",
+    "note": "【順路線】柳川回程順道前往鳥栖 Outlet 購物"
+  },
+  {
+    "day": "Day 2",
+    "name": "下榻：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】返回博多市區飯店休息"
+  },
+  {
+    "day": "Day 3",
+    "name": "出發/取車：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿出發/自駕 Day 1】博多取車出發往西至糸島海岸"
+  },
+  {
+    "day": "Day 3",
+    "name": "糸島（夫婦岩／二見浦海濱）",
+    "lat": 33.640495,
+    "lng": 130.1964802,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.640495,130.1964802",
+    "note": "欣賞白色鳥居與美麗海岸"
+  },
+  {
+    "day": "Day 3",
+    "name": "龍貓之森",
+    "lat": 33.5950234,
+    "lng": 130.1094904,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5950234,130.1094904",
+    "note": "芥屋大門附近的綠色龍貓隧道"
+  },
+  {
+    "day": "Day 3",
+    "name": "花鹽布丁（工房Tottozitan）",
+    "lat": 33.5771816,
+    "lng": 130.0897402,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5771816,130.0897402",
+    "note": "品嚐著名海鹽焦糖布丁"
+  },
+  {
+    "day": "Day 3",
+    "name": "雷山千如寺",
+    "lat": 33.4944456,
+    "lng": 130.2287178,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4944456,130.2287178",
+    "note": "探訪山林古剎與千手觀音"
+  },
+  {
+    "day": "Day 3",
+    "name": "武雄溫泉樓門",
+    "lat": 33.1962371,
+    "lng": 130.0146614,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1962371,130.0146614",
+    "note": "【西向極順路線】探訪佐賀古老武雄溫泉代表地標樓門"
+  },
+  {
+    "day": "Day 3",
+    "name": "下榻：武雄／佐賀溫泉飯店",
+    "lat": 33.1962371,
+    "lng": 130.0146614,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1962371,130.0146614",
+    "note": "【住宿點】夜宿武雄/佐賀溫泉飯店（順路西進）"
+  },
+  {
+    "day": "Day 4",
+    "name": "出發：武雄／佐賀溫泉飯店",
+    "lat": 33.1962371,
+    "lng": 130.0146614,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1962371,130.0146614",
+    "note": "【住宿出發/自駕 Day 2】武雄退房，沿高速公路順向往東前往大分"
+  },
+  {
+    "day": "Day 4",
+    "name": "耶馬溪",
+    "lat": 33.4998128,
+    "lng": 131.1714769,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4998128,131.1714769",
+    "note": "漫步大分溪谷奇岩自然景勝"
+  },
+  {
+    "day": "Day 4",
+    "name": "九州自然動物公園非洲Safari體驗",
+    "lat": 33.3509251,
+    "lng": 131.4137658,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3509251,131.4137658",
+    "note": "大分宇佐市近距離餵食野生動物"
+  },
+  {
+    "day": "Day 4",
+    "name": "下榻：由布院／別府溫泉旅館",
+    "lat": 33.2626697,
+    "lng": 131.355101,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2626697,131.355101",
+    "note": "【住宿點】入住由布院/別府溫泉旅館（享用一泊二食與泡湯）"
+  },
+  {
+    "day": "Day 5",
+    "name": "出發：由布院／別府溫泉旅館",
+    "lat": 33.2626697,
+    "lng": 131.355101,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2626697,131.355101",
+    "note": "【住宿出發/自駕 Day 3】由布院退房，沿大分海岸/高速往北"
+  },
+  {
+    "day": "Day 5",
+    "name": "由布院溫泉街、金鱗湖",
+    "lat": 33.2626697,
+    "lng": 131.355101,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2626697,131.355101",
+    "note": "清晨欣賞金鱗湖晨霧與湯之坪街道漫步"
+  },
+  {
+    "day": "Day 5",
+    "name": "別府地獄溫泉",
+    "lat": 33.2797011,
+    "lng": 131.5002568,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2797011,131.5002568",
+    "note": "別府海地獄巡禮"
+  },
+  {
+    "day": "Day 5",
+    "name": "小倉城",
+    "lat": 33.8844357,
+    "lng": 130.8742541,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8844357,130.8742541",
+    "note": "【北上順路】前往北九州造訪歷史名城"
+  },
+  {
+    "day": "Day 5",
+    "name": "皿倉山展望台",
+    "lat": 33.8467326,
+    "lng": 130.7968029,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8467326,130.7968029",
+    "note": "登上新日本三大夜景俯瞰北九州"
+  },
+  {
+    "day": "Day 5",
+    "name": "下榻：小倉／門司港飯店",
+    "lat": 33.8844357,
+    "lng": 130.8742541,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8844357,130.8742541",
+    "note": "【住宿點】夜宿小倉城/門司港周邊飯店"
+  },
+  {
+    "day": "Day 6",
+    "name": "出發：小倉／門司港飯店",
+    "lat": 33.8844357,
+    "lng": 130.8742541,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.8844357,130.8742541",
+    "note": "【住宿出發/自駕 Day 4】小倉退房出發探訪門司港與關門海峽"
+  },
+  {
+    "day": "Day 6",
+    "name": "門司港車站",
+    "lat": 33.9451121,
+    "lng": 130.9615522,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9451121,130.9615522",
+    "note": "大正浪漫風格車站與懷舊老街"
+  },
+  {
+    "day": "Day 6",
+    "name": "藍翼橋（Blue Wing Moji）",
+    "lat": 33.9478705,
+    "lng": 130.9627873,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9478705,130.9627873",
+    "note": "關門海峽旁揚陸橋音樂秀"
+  },
+  {
+    "day": "Day 6",
+    "name": "關門隧道人行道",
+    "lat": 33.9633117,
+    "lng": 130.9597883,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.9633117,130.9597883",
+    "note": "跨越海底人行道往返福岡門司與山口下關"
+  },
+  {
+    "day": "Day 6",
+    "name": "返還車輛：博多車站還車",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【高速直達】沿 E3 九州自動車道直達博多站順利還車（約1小時）"
+  },
+  {
+    "day": "Day 6",
+    "name": "下榻：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】博多飯店 Check-in 放置行李"
+  },
+  {
+    "day": "Day 6",
+    "name": "櫛田神社（除夕越年參拜）",
+    "lat": 33.5929546,
+    "lng": 130.4104589,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5929546,130.4104589",
+    "note": "12/31 跨年夜博多總鎮守越年參拜"
+  },
+  {
+    "day": "Day 7",
+    "name": "出發：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿出發】博多飯店出發"
+  },
+  {
+    "day": "Day 7",
+    "name": "太宰府天滿宮（正月初詣）",
+    "lat": 33.5213697,
+    "lng": 130.5348239,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5213697,130.5348239",
+    "note": "元旦「初詣」體驗正統日式新年祈福"
+  },
+  {
+    "day": "Day 7",
+    "name": "宮地嶽神社（光の道）",
+    "lat": 33.7792254,
+    "lng": 130.4841842,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7792254,130.4841842",
+    "note": "參拜光之道神社與新年大注連繩"
+  },
+  {
+    "day": "Day 7",
+    "name": "福岡塔",
+    "lat": 33.5932846,
+    "lng": 130.35151,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5932846,130.35151",
+    "note": "元旦傍晚登塔欣賞百道濱與博多灣夜景"
+  },
+  {
+    "day": "Day 7",
+    "name": "下榻：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】返回博多飯店休息"
+  },
+  {
+    "day": "Day 8",
+    "name": "出發：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿出發】博多飯店出發"
+  },
+  {
+    "day": "Day 8",
+    "name": "LaLaport福岡（1:1 V鋼彈、KidZania、玩具美術館）",
+    "lat": 33.5651676,
+    "lng": 130.4409414,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5651676,130.4409414",
+    "note": "1/2 搶購新年福袋與朝聖 1:1 等比例 V 鋼彈"
+  },
+  {
+    "day": "Day 8",
+    "name": "teamLab Forest Fukuoka",
+    "lat": 33.5949959,
+    "lng": 130.3636745,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5949959,130.3636745",
+    "note": "體感沉浸式光影藝術展"
+  },
+  {
+    "day": "Day 8",
+    "name": "博多運河城（Canal City Hakata）",
+    "lat": 33.5896305,
+    "lng": 130.4109478,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5896305,130.4109478",
+    "note": "新年初賣採購與水舞燈光秀"
+  },
+  {
+    "day": "Day 8",
+    "name": "下榻：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】返回博多飯店休息"
+  },
+  {
+    "day": "Day 9",
+    "name": "出發：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿出發】博多飯店出發"
+  },
+  {
+    "day": "Day 9",
+    "name": "大濠公園",
+    "lat": 33.5862065,
+    "lng": 130.3764646,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5862065,130.3764646",
+    "note": "湖畔公園悠閒晨間散步與星巴克咖啡"
+  },
+  {
+    "day": "Day 9",
+    "name": "福岡市美術館",
+    "lat": 33.5841636,
+    "lng": 130.3796718,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5841636,130.3796718",
+    "note": "拍照合影草間彌生經典黃南瓜"
+  },
+  {
+    "day": "Day 9",
+    "name": "友泉亭公園",
+    "lat": 33.5626793,
+    "lng": 130.3763946,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5626793,130.3763946",
+    "note": "純日式回遊式池泉庭園品茗歇腳"
+  },
+  {
+    "day": "Day 9",
+    "name": "藥院站商圈",
+    "lat": 33.5817461,
+    "lng": 130.4021221,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5817461,130.4021221",
+    "note": "探索文青咖啡館、甜點店與雜貨選物"
+  },
+  {
+    "day": "Day 9",
+    "name": "下榻：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿點】返回博多飯店休息"
+  },
+  {
+    "day": "Day 10",
+    "name": "出發/退房：博多市區飯店",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "【住宿退房】博多飯店 Check-out 寄行李"
+  },
+  {
+    "day": "Day 10",
+    "name": "博多車站 (買伴手禮)",
+    "lat": 33.5897275,
+    "lng": 130.4207274,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5897275,130.4207274",
+    "note": "購買博多通饅頭、明太子伴手禮"
+  },
+  {
+    "day": "Day 10",
+    "name": "福岡機場",
+    "lat": 33.5858889,
+    "lng": 130.4508333,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5858889,130.4508333",
+    "note": "09:00 前抵達機場辦理登機，11:00 班機返回桃園"
+  }
+]
