@@ -1486,5 +1486,925 @@
     "lng": 131.1552,
     "note": "傳說中大樹被砍伐後留下的平頂山，頂端有絕美大鞦韆，是童話之鄉玖珠町的地標",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2812,131.1552"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "福澤諭吉舊居",
+    "lat": 33.6062,
+    "lng": 131.1855,
+    "note": "萬元日幣肖像人物福澤諭吉的少年成長地，現設有紀念館展示其生平與墨寶",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6062,131.1855"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "薦神社",
+    "lat": 33.5672,
+    "lng": 131.2294,
+    "note": "宇佐神宮的祖宮，擁有美麗的紅色神橋與三角池，被視為神聖的發祥地",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5672,131.2294"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "深耶馬溪 一目八景",
+    "lat": 33.3935,
+    "lng": 131.0965,
+    "note": "耶馬溪最著名的奇岩觀賞點，可一次眺望群峰、夫婦岩等八種自然地貌絕景",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3935,131.0965"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "猿飛千壺峽",
+    "lat": 33.4568,
+    "lng": 131.0542,
+    "note": "國家天然紀念物，河床佈滿無數圓形甌穴，如藝術品般的地質景觀，秋楓極美",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4568,131.0542"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "溪石園",
+    "lat": 33.4982,
+    "lng": 131.1785,
+    "note": "利用耶馬溪廢棄碎石修築的廣大日本庭園，結合水壩景觀與四季花卉，意境悠遠",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4982,131.1785"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "海地獄",
+    "lat": 33.3155,
+    "lng": 131.4695,
+    "note": "別府地獄組合中規模最大，池水呈現如夢似幻的鈷藍色，實則為近百度的溫泉",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3155,131.4695"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "血池地獄",
+    "lat": 33.3278,
+    "lng": 131.4842,
+    "note": "日本最古老的天然地獄，因富含氧化鐵的噴發泥土導致池水呈現驚悚的鮮紅色",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3278,131.4842"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "別府纜車 (鶴見岳)",
+    "lat": 33.2842,
+    "lng": 131.4325,
+    "note": "九州最大的纜車，只需10分鐘即可登上1375公尺的山頂，俯瞰別府灣全景",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2842,131.4325"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "竹瓦溫泉",
+    "lat": 33.2778,
+    "lng": 131.5035,
+    "note": "別府溫泉的象徵，創業於明治時代的木造歷史建築，以獨特的「砂浴」聞名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2778,131.5035"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "別府公園",
+    "lat": 33.2835,
+    "lng": 131.4932,
+    "note": "位於市中心的森林公園，擁有壯觀的松林步道與季節花田，是當地的休閒祕境",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2835,131.4932"
+  },
+  {
+    "group": "大分縣日出町",
+    "name": "和諧樂園 (Harmonyland)",
+    "lat": 33.3768,
+    "lng": 131.5585,
+    "note": "三麗鷗迷的朝聖地，Hello Kitty 與其夥伴的主題樂園，設有繽紛巡遊與遊樂設施",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3768,131.5585"
+  },
+  {
+    "group": "大分縣日出町",
+    "name": "日出城跡 (暘谷城)",
+    "lat": 33.3655,
+    "lng": 131.5362,
+    "note": "面朝別府灣的古城遺址，其石垣結構保存完好，是觀賞海景與櫻花的絕佳地點",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3655,131.5362"
+  },
+  {
+    "group": "大分縣日出町",
+    "name": "松屋寺",
+    "lat": 33.3682,
+    "lng": 131.5345,
+    "note": "境內擁有日本最大的蘇鐵樹（樹齡約700年），被指定為國家天然紀念物",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3682,131.5345"
+  },
+  {
+    "group": "大分縣日出町",
+    "name": "大神農場 (Ogamifarm)",
+    "lat": 33.3852,
+    "lng": 131.5792,
+    "note": "佔地廣大的香草園與玫瑰園，充滿歐洲田園風情，可在此享用草本料理與下午茶",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3852,131.5792"
+  },
+  {
+    "group": "大分縣日出町",
+    "name": "二階堂美術館",
+    "lat": 33.3552,
+    "lng": 131.5285,
+    "note": "由知名燒酎大廠二階堂酒造設立，館藏豐富的近代日本畫，建築本身也極具設計感",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3552,131.5285"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "龍卷地獄",
+    "lat": 33.3158,
+    "lng": 131.4703,
+    "note": "別府國家指定名勝，日本罕見的間歇泉地獄，每隔約30-40分鐘會強力噴出熱泥泉水",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3158,131.4703"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "白池地獄",
+    "lat": 33.315,
+    "lng": 131.4688,
+    "note": "別府國家指定名勝，池水噴出後因溫度與壓力下降，呈現出靜謐如乳白色的翡翠池水",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3150,131.4688"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "鬼石坊主地獄",
+    "lat": 33.3153,
+    "lng": 131.4678,
+    "note": "因高溫泥漿沸騰湧出時形成大大小小的圓形氣泡，形似和尚（坊主）的禿頭而得名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3153,131.4678"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "鬼山地獄",
+    "lat": 33.3151,
+    "lng": 131.4682,
+    "note": "又稱鱷魚地獄，利用高溫溫泉水飼養了約百隻熱帶鱷魚，定時舉辦震撼的鱷魚餵食秀",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3151,131.4682"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "灶地獄",
+    "lat": 33.3154,
+    "lng": 131.4685,
+    "note": "園內擁有一丁目至六丁目等多種不同泉質與顏色的地獄池，還能體驗飲泉與足湯",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3154,131.4685"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "杉乃井飯店 觀海之湯",
+    "lat": 33.2847,
+    "lng": 131.4721,
+    "note": "別府最具代表性的五層梯田式露營溫泉浴場，能一邊泡湯一邊眺望絕美別府灣夜景",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2847,131.4721"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "明礬溫泉 湯之花小屋",
+    "lat": 33.3175,
+    "lng": 131.4556,
+    "note": "保留自江戶時代的獨特稻草小屋，利用溫泉蒸汽結晶製造天然入浴劑「湯之花」",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3175,131.4556"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "鐵輪溫泉 地熱蒸工坊",
+    "lat": 33.3146,
+    "lng": 131.4746,
+    "note": "人氣自助體驗設施，可租用當地傳統的地熱釜，利用天然高溫溫泉蒸汽烹調新鮮食材",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3146,131.4746"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "志高湖",
+    "lat": 33.2678,
+    "lng": 131.4475,
+    "note": "海拔600公尺的高原火山湖，四周群山環抱，可露營、划船、觀賞天鵝，景致優美寧靜",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2678,131.4475"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "大平山 扇山",
+    "lat": 33.2925,
+    "lng": 131.4367,
+    "note": "別府地標之一，因形似展開的扇子而得名，每年春季會舉辦全日本著名的扇山火祭",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2925,131.4367"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "柴石溫泉",
+    "lat": 33.3289,
+    "lng": 131.4795,
+    "note": "隱於山林溪谷間的歷史溫泉，設有露天溫泉與瀑布浴，環境清幽古樸，深得當地人喜愛",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3289,131.4795"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "堀田溫泉",
+    "lat": 33.2872,
+    "lng": 131.4536,
+    "note": "別府八湯之一，自江戶時代起即為商旅療養溫泉，其泉水豐沛，設有充滿綠意的露天池",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2872,131.4536"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "觀海寺溫泉",
+    "lat": 33.2839,
+    "lng": 131.4728,
+    "note": "別府八湯中位置最高、視野最好的溫泉區，歷史悠久，以能眺望壯觀海景著稱",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2839,131.4728"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "濱脇溫泉",
+    "lat": 33.2672,
+    "lng": 131.5056,
+    "note": "別府溫泉的發祥地，因泉水自海灘湧出而得名，至今保留許多懷舊的大眾澡堂與老街氛圍",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2672,131.5056"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "別府市竹工藝傳統產業會館",
+    "lat": 33.2975,
+    "lng": 131.4883,
+    "note": "展示別府引以為傲的國家傳統工藝「別府竹細工」，館內能觀賞精緻作品並進行竹編體驗",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2975,131.4883"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "內成棚田",
+    "lat": 33.2425,
+    "lng": 131.4836,
+    "note": "入選日本棚田百選，約1000塊大小不一的梯田散落在山坡上，四季呈現截然不同的農村稻浪美景",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2425,131.4836"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "鶴見岳山上權現一之宮",
+    "lat": 33.2861,
+    "lng": 131.4253,
+    "note": "位於鶴見岳山頂的神社，守護地方安全，春季可觀賞霧冰、秋季可賞楓，视野極佳",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2861,131.4253"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "神樂女湖",
+    "lat": 33.2689,
+    "lng": 131.4382,
+    "note": "群山環繞的夢幻湖泊，每年初夏約有1萬5千株、30萬朵菖蒲花盛開，粉紫花海倒映水中極美",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2689,131.4382"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "湯之里 露天溫泉",
+    "lat": 33.3182,
+    "lng": 131.4561,
+    "note": "明礬溫泉名所，巨大的露天泥浴與硫磺泉，可以同時享受美肌與俯瞰明礬大橋的視覺享受",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3182,131.4561"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "鐵輪蒸湯",
+    "lat": 33.3145,
+    "lng": 131.4735,
+    "note": "自鎌倉時代流傳至今的古法石室溫泉蒸氣浴，鋪滿菖蒲草，散發清香並具有排毒美顏功效",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3145,131.4735"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "照湯溫泉",
+    "lat": 33.3112,
+    "lng": 131.4582,
+    "note": "殿堂級的殿主溫泉，歷史可追溯至江戶時代，其木造外觀典雅，泉質溫和舒緩",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3112,131.4582"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "別府海濱砂場",
+    "lat": 33.3135,
+    "lng": 131.5122,
+    "note": "位於別府國際觀光港旁的天然砂浴，遊客躺在溫暖的沙灘上，由職員覆蓋溫泉沙，十分療癒",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3135,131.5122"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "鬼石之湯",
+    "lat": 33.3155,
+    "lng": 131.4675,
+    "note": "緊鄰鬼石坊主地獄的現代化日歸溫泉設施，設有漂亮的半露天池與家庭湯屋",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3155,131.4675"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "十文字原展望台",
+    "lat": 33.3361,
+    "lng": 131.4632,
+    "note": "別府最著名的夜景聖地，可將別府市區、別府灣及大分市的萬家燈火與海岸線盡收眼底",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3361,131.4632"
+  },
+  {
+    "group": "大分縣別府市",
+    "name": "別府明礬 岡本屋売店",
+    "lat": 33.3168,
+    "lng": 131.4552,
+    "note": "地獄蒸布丁的始祖店，利用溫泉蒸汽蒸製的布丁口感綿密微苦，是別府必吃的人氣甜點",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3168,131.4552"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "宇佐海軍航空隊遺址",
+    "lat": 33.5412,
+    "lng": 131.3532,
+    "note": "二戰特攻隊基地遺跡，留有數個巨大的混凝土掩體（掩體壕），靜靜訴說戰爭歷史",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5412,131.3532"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "東椎屋瀑布",
+    "lat": 33.3982,
+    "lng": 131.3789,
+    "note": "日本瀑布百選之一，落差高達85公尺的雄偉瀑布，因形態酷似日光華嚴瀑布而聞名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3982,131.3789"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "西椎屋瀑布",
+    "lat": 33.3852,
+    "lng": 131.3415,
+    "note": "日本瀑布百選，位於耶馬日田英彥山國定公園內，溪水從巨大柱狀節理懸崖傾瀉而下，蔚為壯觀",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3852,131.3415"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "岳切溪谷",
+    "lat": 33.4112,
+    "lng": 131.2982,
+    "note": "約2公里長的平坦巨大石床溪谷，水深僅到腳踝，是夏季遊客赤腳涉水、避暑的天然樂園",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4112,131.2982"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "宇佐神宮 吳橋",
+    "lat": 33.5275,
+    "lng": 131.3765,
+    "note": "宇佐神宮內優雅的木造檜皮葺頂棚蓋橋，僅在十年一度的敕使降臨時才會破例開啟",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5275,131.3765"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "大分縣立歷史博物館",
+    "lat": 33.5415,
+    "lng": 131.3812,
+    "note": "館內展示了宇佐神宮的歷史、國東半島的「六鄉滿山」佛教文化複製品與考古珍貴文物",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5415,131.3812"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "龍岩寺",
+    "lat": 33.4435,
+    "lng": 131.3212,
+    "note": "建在懸崖壁洞穴中的奧之院懸造木塔建築，殿內藏有三尊珍貴的國寶木造藥師如來佛像",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4435,131.3212"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "雙葉山紀念館",
+    "lat": 33.5482,
+    "lng": 131.3465,
+    "note": "昭和時期達成了前無古人69連勝記錄的傳奇大相撲橫綱「雙葉山」的誕生紀念館",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5482,131.3465"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "宇佐風土記之丘",
+    "lat": 33.5422,
+    "lng": 131.3821,
+    "note": "廣闊的歷史遺址公園，散布著多座6世紀的大型前方後圓墳，四季梅花、櫻花與紅葉交替盛開",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5422,131.3821"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "三和酒類 安心院葡萄酒工房",
+    "lat": 33.4282,
+    "lng": 131.3456,
+    "note": "生產高品質大分葡萄酒的著名酒莊，環境宛如歐洲莊園，提供免費試飲與製酒參觀",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4282,131.3456"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "安心院盆地 朝霧展望台",
+    "lat": 33.4355,
+    "lng": 131.3592,
+    "note": "在秋、冬季晴朗的清晨，可在此俯瞰整個安心院盆地被茫茫白色「朝霧」籠罩的夢幻雲海奇景",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4355,131.3592"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "東光寺 五百羅漢",
+    "lat": 33.5352,
+    "lng": 131.3585,
+    "note": "境內石洞與露天處排列著多達五百尊姿態各異、表情喜怒哀樂神乎其技的石刻羅漢神像",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5352,131.3585"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "安心院鴕鳥園",
+    "lat": 33.4115,
+    "lng": 131.3282,
+    "note": "九州罕見的鴕鳥主題農場，可近距離餵食並觀察巨大鴕鳥，還能品嚐獨特的鴕鳥蛋料理",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4115,131.3282"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "妙尊寺",
+    "lat": 33.5222,
+    "lng": 131.3412,
+    "note": "擁有悠久歷史的禪宗古寺，庭園設計充滿日式禪意，山門和主殿結構雄偉而幽靜",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5222,131.3412"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "鷹栖觀音",
+    "lat": 33.4712,
+    "lng": 131.3325,
+    "note": "依傍著平原河流陡峭絕壁雕刻而成的磨崖佛觀音像，周邊流水潺潺，充滿古老靈氣",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4712,131.3325"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "安心院溫泉",
+    "lat": 33.4252,
+    "lng": 131.3412,
+    "note": "帶有特殊鹽分與氣泡的碳酸氫鈉泉，具有極佳的去角質與護膚效果，被譽為美人湯",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4252,131.3412"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "分寺廢寺跡",
+    "lat": 33.5312,
+    "lng": 131.3712,
+    "note": "古代豐後國建立的官辦國分寺歷史遺跡，現存基石柱座，具有極高考古研究價值",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5312,131.3712"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "響山地區公園",
+    "lat": 33.5215,
+    "lng": 131.3282,
+    "note": "當地的花卉祕境，初夏時節整座山丘約有3千株色彩繽紛的繡球花競相盛開，如詩如畫",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5215,131.3282"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "三尾山 蓮華寺",
+    "lat": 33.4352,
+    "lng": 131.3285,
+    "note": "山頂古剎，參道兩旁古杉參天，可在此尋訪神秘的石刻和飽覽安心院平原全貌",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4352,131.3285"
+  },
+  {
+    "group": "大分縣宇佐市",
+    "name": "宇佐市和平資料館",
+    "lat": 33.5412,
+    "lng": 131.3538,
+    "note": "展示二戰時期大分與宇佐海軍航空隊的重要歷史物件，並還原特攻隊出擊前的心境與遺物",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5412,131.3538"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "中津市立歷史博物館",
+    "lat": 33.6075,
+    "lng": 131.1865,
+    "note": "緊鄰中津城石垣，外觀設計與歷史環境完美融合，展示中津藩軍師黑田官兵衛相關文物",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6075,131.1865"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "福澤市民公園",
+    "lat": 33.6052,
+    "lng": 131.1852,
+    "note": "為紀念偉大啟蒙思想家福澤諭吉而建的幽靜市民綠地，園內綠樹成蔭、林道靜雅",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6052,131.1852"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "耶馬溪大馬路自行車道",
+    "lat": 33.4985,
+    "lng": 131.1725,
+    "note": "改建自舊大分交通耶馬溪線鐵道的專用自行車道，沿途穿過隧道與鐵橋，欣賞溪谷風景",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4985,131.1725"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "耶馬溪水壩紀念公園",
+    "lat": 33.4835,
+    "lng": 131.1612,
+    "note": "伴隨耶馬溪水壩竣工而打造的人工瀑布與流水庭園，秋季紅葉倒映在水壩湖面上極為美妙",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4835,131.1612"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "金剛山 羅漢寺 索道",
+    "lat": 33.4742,
+    "lng": 131.1695,
+    "note": "前往峭壁險境羅漢寺的雙人滑椅索道吊椅，可輕鬆登高俯瞰整座奇岩聳立的羅漢山脈",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4742,131.1695"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "八面山",
+    "lat": 33.5435,
+    "lng": 131.2185,
+    "note": "因從四面八方觀看皆形似箭羽而得名，山頂是欣賞中津市區及周防灘無死角夕陽與夜景的秘境",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5435,131.2185"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "八面山金色溫泉",
+    "lat": 33.5412,
+    "lng": 131.2225,
+    "note": "落於八面山麓下的巨石林園露天溫泉，有多達九個各具特色的岩石浴池，四季花草繁茂",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5412,131.2225"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "魔林峽",
+    "lat": 33.4542,
+    "lng": 131.0562,
+    "note": "猿飛千壺峽下游的陡峭斷崖峽谷，兩側佈滿高聳的火山岩壁，架有優美的石造念佛橋",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4542,131.0562"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "檜原山 正平寺",
+    "lat": 33.4925,
+    "lng": 131.1125,
+    "note": "自古即為山岳信仰聖地，參道上林立著千年樹齡的參天古杉群，氛圍空靈寂靜",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4925,131.1125"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "中津祇園歷史博物館",
+    "lat": 33.5982,
+    "lng": 131.1925,
+    "note": "展示擁有近600年歷史、列為國家無形民俗文化財的「中津祇園祭」所使用的巨大華麗山鉾彩車",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5982,131.1925"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "合元寺",
+    "lat": 33.5995,
+    "lng": 131.1912,
+    "note": "俗稱紅牆寺，因戰國武將宇留島在此英勇戰死血流不止，牆壁油漆至今仍漆成鮮紅色而聞名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5995,131.1912"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "耶馬溪 耶馬溪橋",
+    "lat": 33.5135,
+    "lng": 131.1942,
+    "note": "日本唯一現存、最長的八連石造拱橋，因由荷蘭工程技術設計而俗稱「荷蘭橋」",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5135,131.1942"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "御陵瀬洞門",
+    "lat": 33.4795,
+    "lng": 131.1652,
+    "note": "穿過耶馬溪奇岩山脈的古老手鑿半開放式山洞路段，綠樹藤蔓垂掛，拍照光影斑駁生動",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.4795,131.1652"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "薦神社 薦池",
+    "lat": 33.5675,
+    "lng": 131.2285,
+    "note": "薦神社內神聖的三角池，池中野生的蘆葦被視為宇佐八幡神明降臨的憑依，幽靜且神秘",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5675,131.2285"
+  },
+  {
+    "group": "大分縣中津市",
+    "name": "中津市歷史民俗資料館",
+    "lat": 33.5992,
+    "lng": 131.1895,
+    "note": "展出中津地區自古代、江戶時代至近現代的民俗農具、古文書以及蘭學醫學發展歷史",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5992,131.1895"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "日田祇園山鉾會館",
+    "lat": 33.3285,
+    "lng": 130.9385,
+    "note": "常設展示日田祇園祭中使用的、高達10公尺以上精雕細琢的巨大豪華祭典山鉾花車",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3285,130.9385"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "咸宜園",
+    "lat": 33.3218,
+    "lng": 130.9442,
+    "note": "由江戶時期儒學者廣瀨淡窗開辦的全日本最大私塾遺跡，標榜不問出身、因材施教",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3218,130.9442"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "廣瀬資料館",
+    "lat": 33.3262,
+    "lng": 130.9415,
+    "note": "利用豆田町江戶豪商廣瀨家故居改建，展出當年富可敵國的天領豪商生活器具與歷史文獻",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3262,130.9415"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "薰長酒造",
+    "lat": 33.3275,
+    "lng": 130.9405,
+    "note": "創業於江戶時代元祿年間的古老清酒廠，其白壁酒藏保存完好，提供多款金牌日本酒試飲",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3275,130.9405"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "日田溫泉",
+    "lat": 33.3135,
+    "lng": 130.9385,
+    "note": "流經市區的三隈川畔溫泉鄉，夏季可搭乘古典「屋形船」一邊享用晚宴一邊觀賞傳統鸕鶿捕魚秀",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3135,130.9385"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "高塚愛宕地藏尊",
+    "lat": 33.3325,
+    "lng": 131.0315,
+    "note": "神佛習合的著名地藏靈場，境內供奉超過二千尊信徒奉納的石刻地藏，以有求必應聞名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3325,131.0315"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "小鹿田燒之里",
+    "lat": 33.3982,
+    "lng": 130.9425,
+    "note": "隱於深山、入選「日本音風景百選」的陶藝村，利用溪水帶動木樁搗碎陶土，保留純手工製陶傳統",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3982,130.9425"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "小鹿田燒陶藝館",
+    "lat": 33.3985,
+    "lng": 130.9421,
+    "note": "詳細介紹擁有三百年歷史、被指定為國家重要無形文化財的「小鹿田燒」獨特技藝與歷史演變",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3985,130.9421"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "櫻瀧",
+    "lat": 33.2845,
+    "lng": 131.0212,
+    "note": "鄰近天瀨溫泉，水流撞擊岩石時飛濺的水花宛如滿天飛舞的櫻花瓣，因而得此雅名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2845,131.0212"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "天瀨溫泉",
+    "lat": 33.2835,
+    "lng": 131.0185,
+    "note": "開湯1300年，玖珠川河畔的露天共同混堂溫泉「川湯」，輕霧升騰，充滿野趣盎然的魅力",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2835,131.0185"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "梅酒藏大山",
+    "lat": 33.2085,
+    "lng": 130.9612,
+    "note": "位於大山町的頂級梅酒釀造廠，利用當地優質熟成梅子釀酒，並設有充滿現代感的品酒展售空間",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2085,130.9612"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "日田市天瀨森林公園",
+    "lat": 33.2755,
+    "lng": 131.0252,
+    "note": "天瀨山區的自然森林公園，設有完備的登山健行步道與瞭望台，四季森林景觀變幻無窮",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2755,131.0252"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "鯛生金山",
+    "lat": 33.1112,
+    "lng": 130.9125,
+    "note": "曾為東洋最大金礦，現改建為地底探險地道坑道博物館，遊客可體驗掏金砂並觀賞黃金歷史展示",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.1112,130.9125"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "三隈川 屋形船",
+    "lat": 33.3125,
+    "lng": 130.9382,
+    "note": "日田最迷人的夏季活動，坐上日式傳統屋形船，在川面上品嚐宴席料理，觀看漁夫與鸕鶿捕魚",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.3125,130.9382"
+  },
+  {
+    "group": "大分縣日田市",
+    "name": "松原水壩",
+    "lat": 33.2385,
+    "lng": 130.9482,
+    "note": "筑後川上游的大型多功能水壩，湖光山色，特別是春季櫻花和秋季紅葉環繞湖畔時，美不勝收",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.2385,130.9482"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "求菩提山",
+    "lat": 33.5412,
+    "lng": 131.0252,
+    "note": "著名的修行（修行道）靈山，被譽為神聖之山，保留有古老石階、修行窟等遺跡",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5412,131.0252"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "求菩提資料館",
+    "lat": 33.5515,
+    "lng": 131.0182,
+    "note": "專門展示求菩提山修驗道（山岳信仰）與佛教文化的歷史博物館，展出多件國家指定重要文化財",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5515,131.0182"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "卜仙之鄉溫泉",
+    "lat": 33.5542,
+    "lng": 131.0215,
+    "note": "坐落於求菩提山麓下的日歸溫泉療養所，泉質溫和，能一邊泡湯一邊遠眺雄偉的山林風光",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5542,131.0215"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "豐前天地山公園",
+    "lat": 33.6062,
+    "lng": 131.1185,
+    "note": "廣闊的綜合山丘休閒公園，建有巨型天狗溜滑梯、野餐草坪以及隨著四季盛開的花卉庭園",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6062,131.1185"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "畑冷泉",
+    "lat": 33.5782,
+    "lng": 131.0425,
+    "note": "名列「豐之國名水」的著名低溫天然礦泉，夏季水溫長年保持在15度，是消暑祈福聖地",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5782,131.0425"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "畑冷泉館",
+    "lat": 33.5785,
+    "lng": 131.0418,
+    "note": "僅在盛夏7月至8月對外開放的冷泉浴場，利用畑冷泉天然冷礦泉水，具有消除疲勞與爽膚功效",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5785,131.0418"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "大富神社",
+    "lat": 33.6152,
+    "lng": 131.1352,
+    "note": "豐前最具歷史的總社神社，以春季「大富神社春季大祭」及精彩的豐前神樂神舞表演聞名",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6152,131.1352"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "嘯吹八幡神社",
+    "lat": 33.5852,
+    "lng": 131.0982,
+    "note": "幽靜的林中八幡神社，參道古樹交疊，神社後山設有展望點可俯瞰豐前市田園風情",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5852,131.0982"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "賢明寺",
+    "lat": 33.6012,
+    "lng": 131.1152,
+    "note": "當地知名的古老佛教寺院，境內松柏參差，日式枯山水石庭設計古色古香，意境高雅",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6012,131.1152"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "豐前市黑土極樂寺",
+    "lat": 33.5942,
+    "lng": 131.1082,
+    "note": "隱藏版的賞紅葉寺院，每到晚秋，山門內外的厚紅葉落滿一地，彷彿鋪上了一層紅色地毯",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5942,131.1082"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "豐前水果樂園",
+    "lat": 33.5682,
+    "lng": 131.1125,
+    "note": "大型採摘觀光果園，四季皆能體驗親自採摘草莓、水蜜桃、葡萄、無花果、栗子等新鮮水果的樂趣",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5682,131.1125"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "千手觀音像清水寺",
+    "lat": 33.5585,
+    "lng": 131.0852,
+    "note": "古老的山中清水寺，安放著歷史悠久、工藝精細的手雕千手觀音立像，氣氛莊嚴清淨",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.5585,131.0852"
+  },
+  {
+    "group": "福岡縣豐前市",
+    "name": "宇島港",
+    "lat": 33.6265,
+    "lng": 131.1312,
+    "note": "豐前當地的活水漁港，能遠眺周防灘的海天一色，周邊設有直銷魚市可品嚐現捕的「豐前海一粒牡蠣」",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6265,131.1312"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "今川櫻花步道",
+    "lat": 33.7252,
+    "lng": 130.9785,
+    "note": "流經行橋市區的今川兩岸，種植了延綿數公里的櫻花林道，春季櫻花垂落水面，夜間設有燈光秀",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7252,130.9785"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "行橋赤磚館",
+    "lat": 33.7292,
+    "lng": 130.9815,
+    "note": "由大正時期大師辰野金吾建築事務所設計的舊百三十銀行行橋支店，復古西式赤磚建築十分亮眼",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7292,130.9815"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "御所之谷神籠石",
+    "lat": 33.6782,
+    "lng": 130.9612,
+    "note": "飛鳥時代為了防禦而沿著山谷修築的神秘古代山城遗址，保留有極具震撼力的巨石水門與石壁結構",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6782,130.9612"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "柳浦官衙遺跡",
+    "lat": 33.7385,
+    "lng": 130.9652,
+    "note": "國家指定歷史遺跡，為奈良至平安時代地方行政官署遺址，出土了大量珍貴的古瓦與官民器具",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7385,130.9652"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "行橋市歷史民俗資料館",
+    "lat": 33.7212,
+    "lng": 130.9752,
+    "note": "詳細展示行橋市及京都郡地區從舊石器時代古墳、神籠石遺址、至近現代生活器具的考古展館",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7212,130.9752"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "正八幡宮",
+    "lat": 33.7275,
+    "lng": 130.9852,
+    "note": "行橋當地的守護神殿，建於貞觀年間，秋季會舉辦規模宏大的神輿巡遊祭典與神樂舞蹈",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7275,130.9852"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "蓑島海水浴場",
+    "lat": 33.7432,
+    "lng": 131.0212,
+    "note": "與陸地相連的蓑島沙灘，是當地的休閒勝地，春季盛行挖蛤蜊，落日餘暉照在灘塗上極美",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7432,131.0212"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "長井濱海水浴場",
+    "lat": 33.7082,
+    "lng": 131.0315,
+    "note": "面朝Suo-nada海的廣闊白色沙灘，因沙質細膩、海水清澈而聞名，是當地水上運動及露營首選",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7082,131.0315"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "大原八幡神社",
+    "lat": 33.7125,
+    "lng": 130.9582,
+    "note": "座落於林木深處的古老八幡社，境內寧靜祥和，長達百米的參道林蔭蔽日，適合散步沉思",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7125,130.9582"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "馬場之池公園",
+    "lat": 33.7012,
+    "lng": 130.9682,
+    "note": "行橋南部的天然池塘生態公園，設有環湖步道，春季櫻花圍繞湖畔綻放，也是觀鳥的絕佳地點",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7012,130.9682"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "湯之坂溫泉",
+    "lat": 33.6825,
+    "lng": 130.9412,
+    "note": "行橋郊區隱藏版的療養溫泉，環境安靜素雅，具有悠久的治病療傷歷史，泉質親膚柔和",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.6825,130.9412"
+  },
+  {
+    "group": "福岡縣行橋市",
+    "name": "行橋市中央公園",
+    "lat": 33.7245,
+    "lng": 130.9855,
+    "note": "位於市中心的綠意公園，設有大型草坪草地、兒童遊樂器材與健身步道，是居民日常休閒的重要場所",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33.7245,130.9855"
   }
 ]
