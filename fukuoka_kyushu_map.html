@@ -13,11 +13,29 @@
     overflow-y: auto; background: #fafafa; border-left: 1px solid #ddd;
     box-sizing: border-box; padding: 12px;
   }
-  #sidebar h1 { font-size: 16px; margin: 4px 0 12px; }
+  #sidebar h1 { font-size: 16px; margin: 4px 0 6px; }
+  .sidebar-hint { font-size: 11px; color: #666; margin-bottom: 12px; line-height: 1.4; }
   .group { margin-bottom: 14px; }
   .group-title {
-    font-weight: bold; font-size: 13px; padding: 4px 8px; border-radius: 4px;
+    font-weight: bold; font-size: 13px; padding: 5px 8px; border-radius: 4px;
     color: #fff; margin-bottom: 4px; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    transition: all 0.15s ease; user-select: none;
+  }
+  .group-title:hover {
+    transform: translateX(-2px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    filter: brightness(1.08);
+  }
+  .group-title.active {
+    outline: 2px solid #222;
+    outline-offset: 1px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.35);
+    filter: brightness(1.12);
+  }
+  .group-title .badge {
+    font-size: 10px; background: rgba(0,0,0,0.25); padding: 1px 6px;
+    border-radius: 10px; font-weight: normal; margin-left: 6px;
   }
   .group-items { font-size: 12px; }
   .item {
@@ -26,6 +44,10 @@
   .item:hover { background: #eee; }
   .note { color: #999; font-size: 11px; }
   .leaflet-popup-content { font-size: 13px; }
+  .boundary-tooltip {
+    background: rgba(30, 41, 59, 0.85); color: #fff; border: none;
+    border-radius: 4px; font-size: 12px; padding: 3px 8px; font-weight: bold;
+  }
 </style>
 </head>
 <body>
@@ -33,6 +55,7 @@
 <div id="map"></div>
 <div id="sidebar">
   <h1>福岡＆九州旅遊團景點地圖</h1>
+  <div class="sidebar-hint">💡 點選行政區標題可<b>圈出分界</b>並聚焦；點選個別景點可定位。</div>
   <div id="groups"></div>
 </div>
 
@@ -207,6 +230,8 @@ const groupColors = {
   "福岡縣久留米市": "#ca8a04",     // 芥末黃（Lat ~33.31）
   "福岡縣大川市": "#d97706",       // 木香橙（Lat ~33.21）
   "福岡縣柳川市": "#eab308",       // 運河黃（Lat ~33.16）
+  "福岡縣行橋市": "#1f79df",       // 湛藍色（Lat 33.71 )
+  "福岡縣豐前市": "#0284c7",       // 海天藍（Lat 33.58）
 
   // === 大分縣 ===
   "大分縣真玉/豐後高田市": "#0284c7", // 乾潟藍（Lat ~33.61）
@@ -218,6 +243,7 @@ const groupColors = {
   "大分縣玖珠町": "#d97706",       // 童話橙（Lat ~33.28）
   "大分縣別府市": "#f97316",       // 湯煙橙（Lat ~33.28）
   "大分縣由布市": "#ef4444",       // 由布紅（Lat ~33.26）
+  "大分縣日出町": "#80df1f",       // 螢光綠（Lat 33.36）
 
   // === 佐賀縣 ===
   "佐賀縣吉野里/神埼市": "#ca8a04", // 遺址金（Lat ~33.32）
@@ -239,21 +265,79 @@ const groupColors = {
   "宮崎縣西臼杵郡高千穗町": "#c026d3" // 神話紫（Lat ~32.70）[最南]
 };
 
-/*
-色碼設計理念:
-山口縣與北海岸（深藍～海洋藍）：代表關門海峽、響灘與日本海沿岸地貌。
-福岡市與筑豐（翡翠綠～松石綠）：代表福岡都會區、水域公園與內陸綠意。
-筑後地區與大分北部（黃綠～暖黃）：代表筑後平原農產區、河流與耶馬溪自然景致。
-佐賀與大分溫泉區（金黃～溫泉橙）：代表歷史遺跡、溫泉文化與地熱景色。
-熊本阿蘇（火山紅～鮮紅）：象徵「火之國」熊本與阿蘇火山大地。
-長崎與高千穗（長崎紫～高千穗玫紫）：代表長崎港灣夜景與高千穗神話的奇幻氛圍。
-*/
-
-const map = L.map('map').setView([33.0, 130.7], 8);
+const map = L.map('map').setView([33.35, 130.8], 8);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
+
+let boundariesData = {};
+let currentBoundaryLayer = null;
+let currentActiveGroupName = null;
+const groupElements = {};
+const groupMarkerLayers = {};
+
+function highlightDistrictBoundary(groupName, color) {
+  // 如果再次點選同一個行政區，則取消選取並移除邊界
+  if (currentActiveGroupName === groupName) {
+    if (currentBoundaryLayer) {
+      map.removeLayer(currentBoundaryLayer);
+      currentBoundaryLayer = null;
+    }
+    if (groupElements[groupName]) {
+      groupElements[groupName].classList.remove('active');
+    }
+    currentActiveGroupName = null;
+    return;
+  }
+
+  // 清除舊的選取狀態與圖層
+  if (currentActiveGroupName && groupElements[currentActiveGroupName]) {
+    groupElements[currentActiveGroupName].classList.remove('active');
+  }
+  if (currentBoundaryLayer) {
+    map.removeLayer(currentBoundaryLayer);
+    currentBoundaryLayer = null;
+  }
+
+  // 設定當前選中行政區
+  currentActiveGroupName = groupName;
+  if (groupElements[groupName]) {
+    groupElements[groupName].classList.add('active');
+  }
+
+  const geojson = boundariesData[groupName];
+  if (geojson && geojson.features && geojson.features.length > 0) {
+    currentBoundaryLayer = L.geoJSON(geojson, {
+      style: {
+        color: color || '#1d4ed8',
+        weight: 3.5,
+        opacity: 0.95,
+        fillColor: color || '#1d4ed8',
+        fillOpacity: 0.18,
+        dashArray: '5, 5'
+      },
+      onEachFeature: (feature, layer) => {
+        const title = `${groupName}`;
+        layer.bindTooltip(title, { sticky: true, className: 'boundary-tooltip' });
+      }
+    }).addTo(map);
+
+    try {
+      const bounds = currentBoundaryLayer.getBounds();
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [40, 40], maxZoom: 14 });
+      }
+    } catch (e) {
+      console.warn('fitBounds error:', e);
+    }
+  } else if (groupMarkerLayers[groupName] && groupMarkerLayers[groupName].length > 0) {
+    // 若無邊界資料，則根據景點標記範圍定位
+    const groupCoords = groupMarkerLayers[groupName].map(item => [item.data.lat, item.data.lng]);
+    const bounds = L.latLngBounds(groupCoords);
+    map.fitBounds(bounds, { padding: [50, 50], maxZoom: 14 });
+  }
+}
 
 function renderData(dataArr) {
   const groups = {};
@@ -284,13 +368,22 @@ function renderData(dataArr) {
   Object.keys(groupColors).forEach(groupName => {
     if (!groups[groupName]) return;
     const color = groupColors[groupName];
+    groupMarkerLayers[groupName] = groups[groupName];
+
     const groupDiv = document.createElement('div');
     groupDiv.className = 'group';
 
     const titleDiv = document.createElement('div');
     titleDiv.className = 'group-title';
     titleDiv.style.background = color;
-    titleDiv.textContent = `${groupName}（${groups[groupName].length}）`;
+    titleDiv.title = `點選圈出 ${groupName} 行政區邊界`;
+    titleDiv.innerHTML = `<span>${groupName}</span><span class="badge">${groups[groupName].length}</span>`;
+    
+    titleDiv.onclick = () => {
+      highlightDistrictBoundary(groupName, color);
+    };
+
+    groupElements[groupName] = titleDiv;
     groupDiv.appendChild(titleDiv);
 
     const itemsDiv = document.createElement('div');
@@ -311,6 +404,16 @@ function renderData(dataArr) {
     groupsEl.appendChild(groupDiv);
   });
 }
+
+// 載入行政區邊界 GeoJSON 資料
+fetch('assets/boundaries.json')
+  .then(res => res.ok ? res.json() : {})
+  .then(data => {
+    boundariesData = data;
+  })
+  .catch(err => {
+    console.warn('讀取 assets/boundaries.json 失敗:', err);
+  });
 
 // 優先讀 assets/reference_data.json；若直接用 file:// 開啟導致 fetch 失敗，退回用內建的 fallbackData
 fetch('assets/reference_data.json')
